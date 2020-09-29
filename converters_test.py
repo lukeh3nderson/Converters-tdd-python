@@ -15,4 +15,6 @@ def describe_a_library_of_units_converters ():
     
     def can_convert_psi_kpa():
         assert psi2kpa(32) == 220.631712 # 32 PSI == 220.631712 Kpa
-
+        assert psi2kpa(8.5) == 58.6054 # 8.5 PSI == 58.6054
+    
+    
